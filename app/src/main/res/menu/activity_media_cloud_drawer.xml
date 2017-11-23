@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mitAnimaciones"
+            android:icon="@drawable/ic_animacion"
+            android:title="@string/animaciones" />
+        <item
+            android:id="@+id/mitGraficos"
+            android:icon="@drawable/ic_graficos"
+            android:title="@string/graficos" />
+        <item
+            android:id="@+id/mitImagen"
+            android:icon="@drawable/ic_imagen"
+            android:title="@string/imagen" />
+        <item
+            android:id="@+id/mitAudio"
+            android:icon="@drawable/ic_audio"
+            android:title="@string/audio" />
+        <item
+            android:id="@+id/mitVideo"
+            android:icon="@drawable/ic_video"
+            android:title="@string/video" />
+    </group>
+</menu>

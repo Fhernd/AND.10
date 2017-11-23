@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.ortizol.mediacloudapp.fragments.VideoFragment"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_margin="5dp"
+        android:elevation="15dp">
+
+        <VideoView
+            android:id="@+id/vvwVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/lblRutaVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ruta_ningun_archivo_seleccionado"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:id="@+id/btnAbrirVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/abrir"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="2dp"
+            />
+        <Button
+            android:id="@+id/btnGrabacionVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/capturar"
+            android:layout_marginLeft="2dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            />
+    </LinearLayout>
+
+</LinearLayout>

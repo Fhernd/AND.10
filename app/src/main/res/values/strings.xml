@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Media Cloud</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="animaciones">Animaciones</string>
+    <string name="graficos">Gráficos</string>
+    <string name="imagen">Imagen</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="ruta_ningun_archivo_seleccionado">Ruta: ningún archivo seleccionado</string>
+    <string name="abrir">Abrir</string>
+    <string name="capturar">Capturar</string>
+    <string name="ruta">Ruta</string>
+    <string name="reproducir_audio">Reproducir audio</string>
+    <string name="iniciar_grabacion">Iniciar grabación</string>
+    <string name="seleccion_archivo_audio">Selecciona un audio</string>
+    <string name="error_abrir_audio">Error al ejecutar el audio</string>
+    <string name="detener_audio">Detener audio</string>
+    <string name="seleccione_audio_o_grabe">Seleccione un archivo de audio o grabe uno</string>
+    <string name="problema_grabacion">Problema al iniciar la grabación</string>
+    <string name="detener_grabacion">Detener grabación</string>
+    <string name="audio_guardado">Se ha guardado el audio en</string>
+    <string name="error_reproduccion_grabacion">Ha ocurrido un error en la reproducción</string>
+    <string name="video_guardado">El vídeo se guardó correctamente</string>
+    <string name="video_reproduccion_finalizada">El vídeo se ha terminado</string>
+    <string name="error_guardar_video">Ha ocurrido un error al guardar el video</string>
+    <string name="seleccion_archivo_video">Seleccione un archivo de vídeo</string>
+    <string name="media_cloud">Media Cloud</string>
+    <string name="media_cloud_nextu_com">media.cloud@nextu.com</string>
+</resources>

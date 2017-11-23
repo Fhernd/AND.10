@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    tools:context="co.ortizol.mediacloudapp.fragments.AudioFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_margin="5dp"
+        android:elevation="15dp">
+
+        <ImageView
+            android:id="@+id/imgImagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_mic" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/lblRutaAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/ruta_ningun_archivo_seleccionado" />
+
+    <Button
+        android:id="@+id/btnReproducirAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        android:text="@string/reproducir_audio"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAbrirAudio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="@string/abrir"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnIniciarGrabacion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="2"
+            android:background="@color/colorAccent"
+            android:text="@string/iniciar_grabacion"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>
